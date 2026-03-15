@@ -15,7 +15,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project implements a complete pipeline for encoding DNA sequences into optimized quantum circuits. DNA is divided into **codons** (triplets), their frequencies are computed, and the resulting weight distribution is encoded into quantum states using three different strategies — each with different qubit, gate, and fidelity tradeoffs.
 
@@ -28,7 +28,7 @@ Two pipelines are provided:
 
 ---
 
-## 🏗️ Pipeline Architecture
+##  Pipeline Architecture
 
 ### High-Level Flow
 
@@ -95,7 +95,7 @@ flowchart LR
 
 ---
 
-## 🔬 Encoding Strategies
+##  Encoding Strategies
 
 ### Amplitude Encoding
 
@@ -159,7 +159,7 @@ Layer 2:  ─Ry──Ry──Ry──Ry──Ry──Ry──Ry─
 
 ---
 
-## 📊 Results
+##  Results
 
 ### Pipeline 1 — Amplitude vs Angle Encoding (50 bases)
 
@@ -215,7 +215,7 @@ flowchart LR
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── main.py                    # Pipeline 1: Amplitude + Angle encoding (50 bases)
@@ -247,7 +247,7 @@ flowchart LR
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # Clone and setup
@@ -266,7 +266,7 @@ python main_aae.py
 
 ---
 
-## 🧪 DNA Sequences
+##  DNA Sequences
 
 **Pipeline 1 (50 bases):**
 ```
@@ -278,7 +278,7 @@ Rhesus macaque (*Macaca mulatta*) chromosome 16 fragment — `NC_133421.1:910569
 
 ---
 
-## 📚 References
+##  References
 
 1. IBM Quantum Learning — [Data Encoding](https://quantum.cloud.ibm.com/learning/en/courses/quantum-machine-learning/data-encoding)
 2. IBM Qiskit — [FakeSherbrooke Backend](https://docs.quantum.ibm.com/api/qiskit-ibm-runtime/fake_provider)
@@ -288,6 +288,6 @@ Rhesus macaque (*Macaca mulatta*) chromosome 16 fragment — `NC_133421.1:910569
 6. Lu, W., Onuchic, J. N., & Di Pierro, M. (2023). [An associative memory Hamiltonian model for DNA and nucleosomes. *PLoS Computational Biology*, *19*(3), e1011013.](https://doi.org/10.1371/journal.pcbi.1011013)
 ---
 
-## 📄 License
+##  License
 
 [MIT](LICENSE)
