@@ -1,0 +1,21 @@
+{
+  "sequence": "ATGCGTACGTTAGCGTACGATCGTAGCTAGCTTGACGATCGTACGTTAGC",
+  "length": 50,
+  "num_codons": 17,
+  "unique_codons": 12,
+  "amplitude_encoding": {
+    "qubits": 4,
+    "logical_gates": 16,
+    "fidelity_aer": 1.0000000000000009,
+    "fidelity_sherbrooke": 0.9585123739627234,
+    "transpiled_depth": 67
+  },
+  "angle_encoding": {
+    "qubits": 12,
+    "logical_gates": 12,
+    "fidelity_aer": 1.0000000000008633,
+    "fidelity_sherbrooke": 0.9853075610508247,
+    "transpiled_depth": 5
+  },
+  "runtime": 628.6458690166473
+}
