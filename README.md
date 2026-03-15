@@ -174,7 +174,7 @@ Layer 2:  ─Ry──Ry──Ry──Ry──Ry──Ry──Ry─
 | **F(initial, Aer)** | **1.000** | **1.000** |
 | **F(initial, Sherbrooke)** | **0.959** | **0.985** |
 | Noise drop | 0.041 | 0.015 |
-| Reconstruction | ✅ 100% | ✅ 100% |
+| Reconstruction | 100% | 100% |
 
 > Angle encoding achieves higher fidelity (0.985 vs 0.959) due to zero two-qubit gates and depth 1, but requires 3× more qubits.
 
@@ -196,7 +196,7 @@ Layer 2:  ─Ry──Ry──Ry──Ry──Ry──Ry──Ry─
 | **F(trained, Sherbrooke)** | **0.941** |
 | **F(target, Sherbrooke)** | **0.890** |
 | Noise drop | 0.060 |
-| Reconstruction | ✅ 100% |
+| Reconstruction | 100% |
 | Runtime | 362s |
 
 > 12,001 bases encoded into a **7-qubit, depth-39 circuit** with **89% end-to-end fidelity** on a noisy 127-qubit backend.
